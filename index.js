@@ -4,7 +4,7 @@ const http = require('http');
 const { Server } = require('socket.io');
 const mineflayer = require('mineflayer');
 
-const serverHost = process.env.SERVER_HOST || 'DOOMS_DAY_REBORN.aternos.me';
+const serverHost = process.env.SERVER_HOST || 'about1997.play.hosting';
 const serverPort = parseInt(process.env.SERVER_PORT || '59173', 10);
 const botUsername = process.env.BOT_USERNAME || '247_Monitor';
 const minecraftVersion = process.env.MC_VERSION || false;
